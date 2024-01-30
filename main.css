@@ -41,6 +41,7 @@ nav {
     color: var(--Dark-01, #131313);
     font-size: 45px;
     font-weight: 700;
+    margin-bottom: 0px;
 }
 
 .primary-head h3 {
@@ -74,6 +75,7 @@ nav {
     width: 870px;
     color: var(--Dark-03, #727272);
     margin: 30px 0;
+    text-align: center;
 }
 
 .primary-button {
@@ -233,7 +235,8 @@ nav {
     justify-content: center;
     gap: 125px;
 }
-.logo-details{
+
+.logo-details {
     width: 242px;
     height: 242px;
     border-radius: 8px;
@@ -241,17 +244,76 @@ nav {
 }
 
 .logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
     margin: 30px;
+    text-align: center;
 }
-.logo h3{
+
+.logo h3 {
     margin: 25px 0 10px;
 }
-.logo p{
+
+.logo p {
     font-size: 20px;
     font-weight: 600;
     color: var(--Dark-03, #727272);
+}
+
+
+
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.sponsor p {
+    width: 542px;
+    color: var(--Dark-03, #727272);
+    text-align: center;
+    margin: 40px 0;
+}
+
+
+
+
+/*---------------------------
+    Sponsor logo
+ ----------------------------*/
+
+
+.company {
+    /* width: 1500px; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+
+
+
+/*---------------------------
+    Footer
+ ----------------------------*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.foot {
+    border-radius: 8px;
+    background: #FFF4E7;
+    width: 1440px;
+    height: 80px;
+    text-align: center;
+    color: var(--Dark-02, #424242);
+}
+.foot .f-text{
+    margin-top: 30px;
 }
