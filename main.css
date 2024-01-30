@@ -75,7 +75,7 @@ nav {
     margin: 30px 0;
 }
 
-.head-detail .primary-button {
+.primary-button {
     border-radius: 8px;
     background: #FF900E;
     width: 180px;
@@ -85,6 +85,52 @@ nav {
     font-size: 20px;
     font-weight: 600;
 }
-.head-detail button{
+
+.head-detail button {
     margin-bottom: 30px;
+}
+
+
+
+
+/*----------------------------- 
+    Quick Information
+-----------------------------*/
+.quick-info {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0 130px;
+}
+
+.quick-pic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.quick-details {
+    width: 537px;
+    height: 304px;
+}
+
+.quick-details h3 {
+    width: 468px;
+    margin: 0;
+}
+
+#list {
+    color: var(--Dark-03, #727272);
+    font-weight: 500;
+}
+
+#feat {
+    color: #FF900E;
+}
+
+.quick-details p {
+    margin: 30px 0;
+    width: 550px;
+    color: var(--Dark-03, #727272);
 }
