@@ -1,0 +1,90 @@
+/*--------------------------
+    fonts
+--------------------------*/
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+
+/*-------------------------
+    Head
+--------------------------*/
+header {
+    background: rgba(255, 144, 14, 0.10);
+}
+
+
+
+
+/*-------------------------
+    Navigation
+--------------------------*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.option {
+    display: flex;
+    justify-content: space-around;
+    color: var(--Dark-02, #424242);
+    font-size: 18px;
+    font-weight: 500;
+    width: 600px;
+}
+
+.primary-head {
+    color: var(--Dark-01, #131313);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.primary-head h3 {
+    margin: 30px 0;
+
+}
+
+
+
+/*-------------------------
+    Header Information
+--------------------------*/
+.head-info,
+.head-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-detail {
+    margin-top: 100px;
+}
+
+.head-detail h2 {
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.head-detail p {
+    width: 870px;
+    color: var(--Dark-03, #727272);
+    margin: 30px 0;
+}
+
+.head-detail .primary-button {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.head-detail button{
+    margin-bottom: 30px;
+}
