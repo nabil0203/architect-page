@@ -39,7 +39,7 @@ nav {
 
 .primary-head {
     color: var(--Dark-01, #131313);
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
 }
 
@@ -133,5 +133,90 @@ nav {
 .quick-details p {
     margin: 30px 0;
     width: 550px;
+    color: var(--Dark-03, #727272);
+}
+
+
+
+
+/*------------------------------
+    Feature section
+-------------------------------*/
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.feature-info {
+    width: 586px;
+    height: 982px;
+}
+
+.feature-info h3 {
+    width: 400px;
+}
+
+.feature-info p {
+    color: var(--Dark-03, #727272)
+}
+
+
+.feature-box {
+    width: 586px;
+    height: 171px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-box h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.feature-box-details {
+    width: 514px;
+    height: 111px;
+    /* margin: 30px; */
+}
+
+.ten-year {
+    display: flex;
+    justify-content: center;
+}
+
+.ten-year button {
+    width: 300px;
+    height: 160px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    color: #FFF;
+}
+
+#ten {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+#exp {
+    font-size: 25px;
+    font-weight: 500px;
+}
+
+
+
+
+/*---------------------------
+    Facts
+ ----------------------------*/
+.facts {
+    height: 130px;
+    width: 540px;
+    margin: 130px 0 100px 240px;
+}
+.facts p{
     color: var(--Dark-03, #727272);
 }
